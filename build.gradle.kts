@@ -27,6 +27,7 @@ repositories {
 
 dependencies {
     implementation(libs.kermit)
+    implementation(libs.kotlinx.coroutines.core)
     testImplementation(kotlin("test"))
 }
 
