@@ -1,9 +1,13 @@
 package xyz.malefic
 
-import kotlinx.coroutines.*
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
+import kotlinx.coroutines.launch
 
 /**
  * A class representing a signal that can emit values of type T and allows
@@ -34,13 +38,10 @@ class Signal<T> {
     ) {
         when (value) {
             is SignalData<*> -> {
-                // Value is already a SignalData, merge the parameters
-                val existingData = value as SignalData<Any?>
-                val mergedParams = existingData.params + params
-                _flow.emit(SignalData(existingData.value, mergedParams) as T)
+                val mergedParams = value.params + params
+                _flow.emit(SignalData(value.value, mergedParams) as T)
             }
             else -> {
-                // Wrap the value in SignalData
                 _flow.emit(SignalData(value, params) as T)
             }
         }
