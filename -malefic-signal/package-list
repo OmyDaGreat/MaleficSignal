@@ -1,0 +1,22 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:xyz.malefic////PointingToDeclaration/-malefic-signal/xyz.malefic/index.html
+$dokka.location:xyz.malefic/Connection///PointingToDeclaration/-malefic-signal/xyz.malefic/-connection/index.html
+$dokka.location:xyz.malefic/Connection/Connection/#kotlinx.coroutines.Job#kotlinx.coroutines.Job/PointingToDeclaration/-malefic-signal/xyz.malefic/-connection/-connection.html
+$dokka.location:xyz.malefic/Connection/cancel/#/PointingToDeclaration/-malefic-signal/xyz.malefic/-connection/cancel.html
+$dokka.location:xyz.malefic/Connection/isActive/#/PointingToDeclaration/-malefic-signal/xyz.malefic/-connection/is-active.html
+$dokka.location:xyz.malefic/Signal///PointingToDeclaration/-malefic-signal/xyz.malefic/-signal/index.html
+$dokka.location:xyz.malefic/Signal/Signal/#/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal/-signal.html
+$dokka.location:xyz.malefic/Signal/connect/#kotlin.coroutines.SuspendFunction1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal/connect.html
+$dokka.location:xyz.malefic/Signal/connect/#kotlinx.coroutines.CoroutineScope#kotlin.coroutines.SuspendFunction1[TypeParam(bounds=[kotlin.Any?]),kotlin.Unit]/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal/connect.html
+$dokka.location:xyz.malefic/Signal/emit/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal/emit.html
+$dokka.location:xyz.malefic/Signal/emitWithParams/#TypeParam(bounds=[kotlin.Any?])#kotlin.collections.Map[kotlin.String,kotlin.Any?]/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal/emit-with-params.html
+$dokka.location:xyz.malefic/Signal/flow/#/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal/flow.html
+$dokka.location:xyz.malefic/Signal/withParams/#kotlin.Any?#kotlin.collections.Map[kotlin.String,kotlin.Any?]/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal/with-params.html
+$dokka.location:xyz.malefic/SignalData///PointingToDeclaration/-malefic-signal/xyz.malefic/-signal-data/index.html
+$dokka.location:xyz.malefic/SignalData/SignalData/#TypeParam(bounds=[kotlin.Any?])#kotlin.collections.Map[kotlin.String,kotlin.Any?]/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal-data/-signal-data.html
+$dokka.location:xyz.malefic/SignalData/getParam/#kotlin.String/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal-data/get-param.html
+$dokka.location:xyz.malefic/SignalData/hasParam/#kotlin.String/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal-data/has-param.html
+$dokka.location:xyz.malefic/SignalData/params/#/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal-data/params.html
+$dokka.location:xyz.malefic/SignalData/value/#/PointingToDeclaration/-malefic-signal/xyz.malefic/-signal-data/value.html
+xyz.malefic
