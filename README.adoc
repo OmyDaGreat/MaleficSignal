@@ -115,4 +115,4 @@ fun main() = runBlocking {
 
 == License
 
-This project is licensed under the MIT License: https://malefic.mit-license.org/
+This project is licensed under the MIT License: https://mit.malefic.xyz/
