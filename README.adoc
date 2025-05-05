@@ -20,7 +20,7 @@ Add the following dependency to your `build.gradle.kts` file:
 [source,kotlin]
 ----
 dependencies {
-    implementation("com.example:maleficsignal:1.0.0")
+    implementation("xyz.maleic:signal:1.0.0")
 }
 ----
 
