@@ -2,7 +2,7 @@
 kotlin = "2.2.21"
 kotlinter = "5.2.0"
 kermit = "2.0.5"
-central = "1.2.8"
+central = "2.0.2"
 dokka = "2.0.0"
 coroutines = "1.10.2"
 
